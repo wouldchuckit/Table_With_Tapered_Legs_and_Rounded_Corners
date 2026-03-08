@@ -116,8 +116,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.0447680690399137,
-      "y": 0.5635103926096998,
+      "x": 0.04692556634304207,
+      "y": 0.5519630484988453,
       "uniqueID": "id-5224",
       "name": "TopHeight - W",
       "ioValues": [
@@ -131,11 +131,18 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.04422869471413161,
-      "y": 0.7644341801385681,
+      "x": 0.04692556634304207,
+      "y": 0.6674364896073902,
       "uniqueID": "id-5233",
-      "name": "TableWidth / 2 - EdgeLip",
-      "currentEquation": "TableWidth / 2 - EdgeLip"
+      "name": "TableWidth / 2 - EL",
+      "ioValues": [
+        {
+          "name": "EL",
+          "ioValue": 40,
+          "currentEquation": "EdgeLip"
+        }
+      ],
+      "currentEquation": "TableWidth / 2 - EL"
     },
     {
       "atomType": "Input",
@@ -143,6 +150,39 @@
       "y": 0.44,
       "uniqueID": "id-5237",
       "name": "LegWidth"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.04746494066882417,
+      "y": 0.7759815242494226,
+      "uniqueID": "id-5241",
+      "name": "TableLength / 2 - EL",
+      "ioValues": [
+        {
+          "name": "EL",
+          "ioValue": 40,
+          "currentEquation": "EdgeLip"
+        }
+      ],
+      "currentEquation": "TableLength / 2 - EL"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.04800431499460626,
+      "y": 0.8845265588914549,
+      "uniqueID": "id-5248",
+      "name": "x + y",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        },
+        {
+          "name": "y",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "x + y"
     }
   ],
   "allConnectors": [
