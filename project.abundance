@@ -227,6 +227,19 @@
           "name": "EdgeHeight",
           "ioValue": 80,
           "currentEquation": "EdgeHeight"
+        },
+        {
+          "name": "BoltDiameter",
+          "ioValue": 5
+        },
+        {
+          "name": "NutWidth",
+          "ioValue": 10,
+          "currentEquation": "10"
+        },
+        {
+          "name": "NutThick",
+          "ioValue": 5
         }
       ],
       "topLevel": false,
@@ -284,8 +297,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.0302049622437972,
-          "y": 0.4988452655889145,
+          "x": 0.03182308522114347,
+          "y": 0.7852193995381063,
           "uniqueID": "id-5284",
           "name": "TopHeight - WT",
           "ioValues": [
@@ -502,6 +515,27 @@
               "ioValue": null
             }
           ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.44,
+          "uniqueID": "id-5340",
+          "name": "BoltDiameter"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.506,
+          "uniqueID": "id-5343",
+          "name": "NutWidth"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.5720000000000001,
+          "uniqueID": "id-5346",
+          "name": "NutThick"
         }
       ],
       "allConnectors": [
