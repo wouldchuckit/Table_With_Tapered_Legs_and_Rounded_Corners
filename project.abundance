@@ -7,8 +7,8 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 20,
-      "currentEquation": "20"
+      "ioValue": 19.05,
+      "currentEquation": "19.05"
     },
     {
       "name": "TableLength",
@@ -27,6 +27,10 @@
       "name": "EdgeLip",
       "ioValue": 40,
       "currentEquation": "40"
+    },
+    {
+      "name": "LegWidth",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -99,7 +103,7 @@
         },
         {
           "name": "height",
-          "ioValue": 20
+          "ioValue": 19.05
         }
       ]
     },
@@ -112,11 +116,33 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.06256742179072276,
-      "y": 0.6581986143187066,
+      "x": 0.0447680690399137,
+      "y": 0.5635103926096998,
       "uniqueID": "id-5224",
-      "name": "TopHeight - WoodThick",
-      "currentEquation": "TopHeight - WoodThick"
+      "name": "TopHeight - W",
+      "ioValues": [
+        {
+          "name": "W",
+          "ioValue": 19.05,
+          "currentEquation": "WoodThick"
+        }
+      ],
+      "currentEquation": "TopHeight - W"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.1208198489751888,
+      "y": 0.7413394919168591,
+      "uniqueID": "id-5233",
+      "name": "TableWidth / 2 - EdgeLip",
+      "currentEquation": "TableWidth / 2 - EdgeLip"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.44,
+      "uniqueID": "id-5237",
+      "name": "LegWidth"
     }
   ],
   "allConnectors": [
