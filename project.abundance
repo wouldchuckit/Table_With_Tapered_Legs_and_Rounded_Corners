@@ -30,11 +30,12 @@
     },
     {
       "name": "LegWidth",
-      "ioValue": 10
+      "ioValue": 80
     },
     {
       "name": "EdgeHeight",
-      "ioValue": 10
+      "ioValue": 80,
+      "currentEquation": "80"
     }
   ],
   "topLevel": true,
@@ -202,21 +203,23 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2518878101402373,
-      "y": 0.41339491916859117,
+      "x": 0.30258899676375406,
+      "y": 0.6327944572748267,
       "uniqueID": "id-5258",
       "name": "Leg",
       "ioValues": [
         {
           "name": "WoodThick",
-          "ioValue": 10
+          "ioValue": 19.05,
+          "currentEquation": "WoodThick"
         },
         {
-          "name": "TableHeight",
-          "ioValue": 10
+          "name": "TopHeight",
+          "ioValue": 3000,
+          "currentEquation": "TopHeight"
         },
         {
-          "name": "LedWidth",
+          "name": "LegWidth",
           "ioValue": 10
         }
       ],
@@ -246,14 +249,63 @@
           "x": 0.01815,
           "y": 0.242,
           "uniqueID": "id-5268",
-          "name": "TableHeight"
+          "name": "TopHeight"
         },
         {
           "atomType": "Input",
           "x": 0.01815,
           "y": 0.308,
           "uniqueID": "id-5271",
-          "name": "LedWidth"
+          "name": "LegWidth"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.21197411003236247,
+          "y": 0.27020785219399535,
+          "uniqueID": "id-5280",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.06310679611650485,
+          "y": 0.5773672055427251,
+          "uniqueID": "id-5284",
+          "name": "TopHeight - WT",
+          "ioValues": [
+            {
+              "name": "WT",
+              "ioValue": 19.05,
+              "currentEquation": "WoodThick"
+            }
+          ],
+          "currentEquation": "TopHeight - WT"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.255663430420712,
+          "y": 0.6258660508083141,
+          "uniqueID": "id-5294",
+          "name": "x + y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 1
+            },
+            {
+              "name": "y",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "x + y"
         }
       ],
       "allConnectors": [],
