@@ -92,7 +92,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.3071593533487298,
+      "y": 0.308,
       "uniqueID": "id-5214",
       "name": "TopHeight"
     },
@@ -202,6 +202,13 @@
       "currentEquation": "TableWidth - 2 * EL"
     },
     {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.506,
+      "uniqueID": "id-5274",
+      "name": "EdgeHeight"
+    },
+    {
       "atomType": "Molecule",
       "x": 0.30258899676375406,
       "y": 0.6327944572748267,
@@ -234,8 +241,7 @@
         },
         {
           "name": "NutWidth",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         },
         {
           "name": "NutThick",
@@ -259,21 +265,21 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.176,
+          "y": 0.10999999999999999,
           "uniqueID": "id-5265",
           "name": "WoodThick"
         },
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.242,
+          "y": 0.176,
           "uniqueID": "id-5268",
           "name": "TopHeight"
         },
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.308,
+          "y": 0.242,
           "uniqueID": "id-5271",
           "name": "LegWidth"
         },
@@ -298,7 +304,7 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.374,
+          "y": 0.308,
           "uniqueID": "id-5299",
           "name": "EdgeHeight"
         },
@@ -453,8 +459,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.29449838187702265,
-          "y": 0.21478060046189376,
+          "x": 0.31661272923408845,
+          "y": 0.17551963048498845,
           "uniqueID": "id-5327",
           "ioValues": [
             {
@@ -508,21 +514,21 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.44,
+          "y": 0.374,
           "uniqueID": "id-5340",
           "name": "BoltDiameter"
         },
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.506,
+          "y": 0.44,
           "uniqueID": "id-5343",
           "name": "NutWidth"
         },
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.5720000000000001,
+          "y": 0.506,
           "uniqueID": "id-5346",
           "name": "NutThick"
         },
@@ -575,8 +581,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.22006472491909385,
-          "y": 0.5935334872979214,
+          "x": 0.22060409924487595,
+          "y": 0.584295612009238,
           "uniqueID": "id-5364",
           "ioValues": [
             {
@@ -592,8 +598,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.267529665587918,
-          "y": 0.5958429561200923,
+          "x": 0.2740021574973031,
+          "y": 0.5727482678983834,
           "uniqueID": "id-5368",
           "ioValues": [
             {
@@ -617,8 +623,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.31283710895361383,
-          "y": 0.5935334872979214,
+          "x": 0.3295577130528587,
+          "y": 0.6120092378752886,
           "uniqueID": "id-5374",
           "ioValues": [
             {
@@ -627,8 +633,7 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 90,
-              "currentEquation": "90"
+              "ioValue": 90
             },
             {
               "name": "y-axis degrees",
@@ -650,24 +655,24 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.11272923408845739,
-          "y": 0.8406466512702079,
+          "x": 0.12837108953613807,
+          "y": 0.8752886836027713,
           "uniqueID": "id-5383",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 14.142135623730951
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 14.142135623730951
             }
           ]
         },
         {
           "atomType": "Extrude",
-          "x": 0.1709816612729234,
-          "y": 0.8660508083140878,
+          "x": 0.2022653721682848,
+          "y": 0.8475750577367206,
           "uniqueID": "id-5387",
           "ioValues": [
             {
@@ -676,9 +681,23 @@
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 14.142135623730951
             }
           ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.07065803667745416,
+          "y": 0.8568129330254042,
+          "uniqueID": "id-5494",
+          "name": "SH * sqrt(2)",
+          "ioValues": [
+            {
+              "name": "SH",
+              "ioValue": 10
+            }
+          ],
+          "currentEquation": "SH * sqrt(2)"
         }
       ],
       "allConnectors": [
@@ -758,34 +777,32 @@
           "ap2ID": "id-5335"
         },
         {
-          "ap2Name": "x length",
+          "ap2Name": "SH",
           "ap1ID": "id-5380",
-          "ap2ID": "id-5383"
-        },
-        {
-          "ap2Name": "y length",
-          "ap1ID": "id-5380",
-          "ap2ID": "id-5383"
-        },
-        {
-          "ap2Name": "height",
-          "ap1ID": "id-5380",
-          "ap2ID": "id-5387"
+          "ap2ID": "id-5494"
         },
         {
           "ap2Name": "geometry",
           "ap1ID": "id-5383",
           "ap2ID": "id-5387"
+        },
+        {
+          "ap2Name": "x length",
+          "ap1ID": "id-5494",
+          "ap2ID": "id-5383"
+        },
+        {
+          "ap2Name": "y length",
+          "ap1ID": "id-5494",
+          "ap2ID": "id-5383"
+        },
+        {
+          "ap2Name": "height",
+          "ap1ID": "id-5494",
+          "ap2ID": "id-5387"
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.506,
-      "uniqueID": "id-5274",
-      "name": "EdgeHeight"
     }
   ],
   "allConnectors": [
