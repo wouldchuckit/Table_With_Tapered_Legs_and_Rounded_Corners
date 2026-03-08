@@ -49,8 +49,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.11326860841423947,
-      "y": 0.10392609699769054,
+      "x": 0.14509169363538296,
+      "y": 0.10161662817551963,
       "uniqueID": "id-5195",
       "ioValues": [
         {
@@ -93,8 +93,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.1925566343042071,
-      "y": 0.12471131639722863,
+      "x": 0.20280474649406688,
+      "y": 0.10392609699769054,
       "uniqueID": "id-5217",
       "ioValues": [
         {
@@ -116,8 +116,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.04692556634304207,
-      "y": 0.5519630484988453,
+      "x": 0.034519956850053934,
+      "y": 0.5496535796766744,
       "uniqueID": "id-5224",
       "name": "TopHeight - W",
       "ioValues": [
@@ -131,8 +131,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.04692556634304207,
-      "y": 0.6674364896073902,
+      "x": 0.03236245954692557,
+      "y": 0.6628175519630485,
       "uniqueID": "id-5233",
       "name": "TableWidth / 2 - EL",
       "ioValues": [
@@ -153,8 +153,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.04746494066882417,
-      "y": 0.7759815242494226,
+      "x": 0.03344120819848975,
+      "y": 0.76905311778291,
       "uniqueID": "id-5241",
       "name": "TableLength / 2 - EL",
       "ioValues": [
@@ -168,21 +168,80 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.04800431499460626,
-      "y": 0.8845265588914549,
+      "x": 0.08360302049622438,
+      "y": 0.7713625866050808,
       "uniqueID": "id-5248",
-      "name": "x + y",
+      "name": "TableLength - 2 * EL",
       "ioValues": [
         {
-          "name": "x",
-          "ioValue": 1
-        },
-        {
-          "name": "y",
-          "ioValue": 1
+          "name": "EL",
+          "ioValue": 40,
+          "currentEquation": "EdgeLip"
         }
       ],
-      "currentEquation": "x + y"
+      "currentEquation": "TableLength - 2 * EL"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.0819848975188781,
+      "y": 0.6443418013856812,
+      "uniqueID": "id-5253",
+      "name": "TableWidth - 2 * EL",
+      "ioValues": [
+        {
+          "name": "EL",
+          "ioValue": 40,
+          "currentEquation": "EdgeLip"
+        }
+      ],
+      "currentEquation": "TableWidth - 2 * EL"
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.2518878101402373,
+      "y": 0.41339491916859117,
+      "uniqueID": "id-5258",
+      "name": "Leg",
+      "ioValues": [
+        {
+          "name": "TableHeight",
+          "ioValue": 10
+        },
+        {
+          "name": "Input",
+          "ioValue": 10
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-5260",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.3140877598152425,
+          "uniqueID": "id-5262",
+          "name": "TableHeight"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.176,
+          "uniqueID": "id-5265"
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
