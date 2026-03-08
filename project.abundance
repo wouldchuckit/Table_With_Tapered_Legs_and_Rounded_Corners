@@ -1,13 +1,123 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-5192",
-    "name": "Simple_Table",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-5192",
+  "name": "Simple_Table",
+  "ioValues": [
+    {
+      "name": "WoodThick",
+      "ioValue": 19.05,
+      "currentEquation": "19.05"
+    },
+    {
+      "name": "TableLength",
+      "ioValue": 10000
+    },
+    {
+      "name": "TableWidth",
+      "ioValue": 5000
+    },
+    {
+      "name": "TopHeight",
+      "ioValue": 3000,
+      "currentEquation": "3000"
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-5193",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.13322545846817693,
+      "y": 0.20554272517321018,
+      "uniqueID": "id-5195",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10000
+        },
+        {
+          "name": "y length",
+          "ioValue": 5000
+        }
+      ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.10999999999999999,
+      "uniqueID": "id-5199",
+      "name": "WoodThick"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.176,
+      "uniqueID": "id-5202",
+      "name": "TableLength"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.242,
+      "uniqueID": "id-5205",
+      "name": "TableWidth"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.308,
+      "uniqueID": "id-5214",
+      "name": "TopHeight"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2233009708737864,
+      "y": 0.20554272517321018,
+      "uniqueID": "id-5217",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-5195",
+      "ap2ID": "id-5217"
+    },
+    null,
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-5202",
+      "ap2ID": "id-5195"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-5205",
+      "ap2ID": "id-5195"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
