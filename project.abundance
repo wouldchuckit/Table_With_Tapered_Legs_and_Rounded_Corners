@@ -31,6 +31,10 @@
     {
       "name": "LegWidth",
       "ioValue": 10
+    },
+    {
+      "name": "EdgeHeight",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -116,8 +120,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.034519956850053934,
-      "y": 0.5496535796766744,
+      "x": 0.03236245954692557,
+      "y": 0.7066974595842955,
       "uniqueID": "id-5224",
       "name": "TopHeight - W",
       "ioValues": [
@@ -132,7 +136,7 @@
     {
       "atomType": "Equation",
       "x": 0.03236245954692557,
-      "y": 0.6628175519630485,
+      "y": 0.8013856812933026,
       "uniqueID": "id-5233",
       "name": "TableWidth / 2 - EL",
       "ioValues": [
@@ -153,8 +157,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.03344120819848975,
-      "y": 0.76905311778291,
+      "x": 0.03290183387270766,
+      "y": 0.9030023094688221,
       "uniqueID": "id-5241",
       "name": "TableLength / 2 - EL",
       "ioValues": [
@@ -168,8 +172,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.08360302049622438,
-      "y": 0.7713625866050808,
+      "x": 0.08036677454153182,
+      "y": 0.8106235565819861,
       "uniqueID": "id-5248",
       "name": "TableLength - 2 * EL",
       "ioValues": [
@@ -183,8 +187,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.0819848975188781,
-      "y": 0.6443418013856812,
+      "x": 0.08036677454153182,
+      "y": 0.7113163972286374,
       "uniqueID": "id-5253",
       "name": "TableWidth - 2 * EL",
       "ioValues": [
@@ -204,11 +208,15 @@
       "name": "Leg",
       "ioValues": [
         {
+          "name": "WoodThick",
+          "ioValue": 10
+        },
+        {
           "name": "TableHeight",
           "ioValue": 10
         },
         {
-          "name": "Input",
+          "name": "LedWidth",
           "ioValue": 10
         }
       ],
@@ -229,19 +237,34 @@
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.3140877598152425,
-          "uniqueID": "id-5262",
+          "y": 0.176,
+          "uniqueID": "id-5265",
+          "name": "WoodThick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.242,
+          "uniqueID": "id-5268",
           "name": "TableHeight"
         },
         {
           "atomType": "Input",
           "x": 0.01815,
-          "y": 0.176,
-          "uniqueID": "id-5265"
+          "y": 0.308,
+          "uniqueID": "id-5271",
+          "name": "LedWidth"
         }
       ],
       "allConnectors": [],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.506,
+      "uniqueID": "id-5274",
+      "name": "EdgeHeight"
     }
   ],
   "allConnectors": [
