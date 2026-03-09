@@ -273,6 +273,14 @@
         {
           "name": "Shape 1",
           "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
         }
       ]
     },
@@ -2427,6 +2435,76 @@
           "currentEquation": "TopHeight - WoodThick"
         }
       ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.47572815533980584,
+      "y": 0.6836027713625865,
+      "uniqueID": "id-6536",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.540453074433657,
+      "y": 0.5427251732101617,
+      "uniqueID": "id-6543",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tag": "Leg",
+      "tagIndex": 0
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.5447680690399137,
+      "y": 0.7575057736720554,
+      "uniqueID": "id-6546",
+      "name": "Extract Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tag": "Brace",
+      "tagIndex": 0
+    },
+    {
+      "atomType": "Tag",
+      "x": 0.4967637540453074,
+      "y": 0.13625866050808313,
+      "uniqueID": "id-6549",
+      "name": "Top",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tags": [
+        "Top"
+      ]
     }
   ],
   "allConnectors": [
@@ -2481,9 +2559,14 @@
       "ap2ID": "id-6515"
     },
     {
-      "ap2Name": "Shape 1",
+      "ap2Name": "geometry",
       "ap1ID": "id-6012",
-      "ap2ID": "id-6169"
+      "ap2ID": "id-6549"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-6479",
+      "ap2ID": "id-6536"
     },
     {
       "ap2Name": "geometry",
@@ -2491,14 +2574,54 @@
       "ap2ID": "id-6497"
     },
     {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-6497",
+      "ap2ID": "id-6536"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-6503",
       "ap2ID": "id-6504"
     },
     {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-6504",
+      "ap2ID": "id-6536"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-6515",
       "ap2ID": "id-6516"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-6516",
+      "ap2ID": "id-6536"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6536",
+      "ap2ID": "id-6543"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6536",
+      "ap2ID": "id-6546"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-6543",
+      "ap2ID": "id-6169"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-6546",
+      "ap2ID": "id-6169"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-6549",
+      "ap2ID": "id-6169"
     }
   ],
   "unitsKey": "MM",
