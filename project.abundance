@@ -459,6 +459,51 @@
       "global": true
     },
     {
+      "atomType": "CutLayout",
+      "x": 0.7464940668824164,
+      "y": 0.5080831408775981,
+      "uniqueID": "id-6922",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": []
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.5447680690399137,
+      "y": 0.9099307159353348,
+      "uniqueID": "id-6929",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "These are extracted and then added separately to the assembly to make them chop off the right parts when they assemble. ",
+      "global": true
+    },
+    {
       "atomType": "Molecule",
       "x": 0.1429341963322546,
       "y": 0.6166281755196305,
@@ -892,17 +937,7 @@
           "atomType": "Rectangle",
           "x": 0.12837108953613807,
           "y": 0.8752886836027713,
-          "uniqueID": "id-5383",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 7.0710678118654755
-            },
-            {
-              "name": "y length",
-              "ioValue": 7.0710678118654755
-            }
-          ]
+          "uniqueID": "id-5383"
         },
         {
           "atomType": "Extrude",
@@ -913,10 +948,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 7.0710678118654755
             }
           ]
         },
@@ -926,12 +957,6 @@
           "y": 0.8568129330254042,
           "uniqueID": "id-5494",
           "name": "SH * sqrt(2)",
-          "ioValues": [
-            {
-              "name": "SH",
-              "ioValue": 5
-            }
-          ],
           "currentEquation": "SH * sqrt(2)"
         },
         {
@@ -2384,51 +2409,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.7464940668824164,
-      "y": 0.5080831408775981,
-      "uniqueID": "id-6922",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 2438
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 1219
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 10
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 12
-        }
-      ],
-      "placements": []
-    },
-    {
-      "atomType": "Readme",
-      "x": 0.5447680690399137,
-      "y": 0.9099307159353348,
-      "uniqueID": "id-6929",
-      "name": "README",
-      "ioValues": [
-        {
-          "name": "value",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "readMeText": "These are extracted and then added separately to the assembly to make them chop off the right parts when they assemble. ",
-      "global": true
     }
   ],
   "allConnectors": [
