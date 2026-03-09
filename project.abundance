@@ -865,16 +865,119 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.6154261057173679,
-          "y": 0.8568129330254042,
+          "x": 0.5544768069039914,
+          "y": 0.9076212471131639,
           "uniqueID": "id-5546",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 5,
+              "currentEquation": "BoltDiameter"
             },
             {
               "name": "y length",
+              "ioValue": 5,
+              "currentEquation": "BoltDiameter"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.6202804746494067,
+          "y": 0.9099307159353348,
+          "uniqueID": "id-5550",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 60.95,
+              "currentEquation": "LegWidth - WoodThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.6860841423948221,
+          "y": 0.9076212471131639,
+          "uniqueID": "id-5554",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": -90,
+              "currentEquation": "-90"
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.7443365695792881,
+          "y": 0.9168591224018476,
+          "uniqueID": "id-5560",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 40,
+              "currentEquation": "EdgeHeight/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.5571736785329018,
+          "y": 0.745958429561201,
+          "uniqueID": "id-5566",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10,
+              "currentEquation": "NutWidth"
+            },
+            {
+              "name": "y length",
+              "ioValue": 5,
+              "currentEquation": "NutThick"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.6175836030204962,
+          "y": 0.7621247113163973,
+          "uniqueID": "id-5570",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
               "ioValue": 10
             }
           ]
@@ -1035,6 +1138,26 @@
           "ap2Name": "geometry",
           "ap1ID": "id-5542",
           "ap2ID": "id-5368"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5546",
+          "ap2ID": "id-5550"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5550",
+          "ap2ID": "id-5554"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5554",
+          "ap2ID": "id-5560"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5566",
+          "ap2ID": "id-5570"
         }
       ],
       "fileTypeVersion": 1
