@@ -1059,10 +1059,35 @@
           ]
         },
         {
+          "atomType": "Move",
+          "x": 0.8451995685005393,
+          "y": 0.18013856812933027,
+          "uniqueID": "id-5798",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": -99.05,
+              "currentEquation": "- LegWidth - WoodThick"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
           "atomType": "Rotate",
-          "x": 0.8414239482200647,
-          "y": 0.15935334872979215,
-          "uniqueID": "id-5601",
+          "x": 0.8921251348435815,
+          "y": 0.18244803695150116,
+          "uniqueID": "id-5804",
           "ioValues": [
             {
               "name": "geometry",
@@ -1074,11 +1099,13 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 90
+              "ioValue": 90,
+              "currentEquation": "90"
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 0
+              "ioValue": 45,
+              "currentEquation": "45"
             }
           ]
         }
@@ -1292,7 +1319,12 @@
         {
           "ap2Name": "geometry",
           "ap1ID": "id-5591",
-          "ap2ID": "id-5601"
+          "ap2ID": "id-5798"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5798",
+          "ap2ID": "id-5804"
         }
       ],
       "fileTypeVersion": 1
