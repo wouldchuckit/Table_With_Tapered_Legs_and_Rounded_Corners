@@ -11,12 +11,12 @@
     },
     {
       "name": "TableLength",
-      "ioValue": 500,
-      "currentEquation": "500"
+      "ioValue": 1000
     },
     {
       "name": "TableWidth",
-      "ioValue": 300
+      "ioValue": 2000,
+      "currentEquation": "2000"
     },
     {
       "name": "TopHeight",
@@ -1408,12 +1408,12 @@
         },
         {
           "name": "TableWidth",
-          "ioValue": 300,
+          "ioValue": 2000,
           "currentEquation": "TableWidth"
         },
         {
           "name": "TableLength",
-          "ioValue": 500,
+          "ioValue": 1000,
           "currentEquation": "TableLength"
         },
         {
@@ -1525,12 +1525,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 150,
+              "ioValue": 1000,
               "currentEquation": "TableWidth/2"
             },
             {
               "name": "yDist",
-              "ioValue": 250,
+              "ioValue": 500,
               "currentEquation": "TableLength/2"
             },
             {
@@ -1551,12 +1551,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -150,
+              "ioValue": -1000,
               "currentEquation": "-TableWidth/2"
             },
             {
               "name": "yDist",
-              "ioValue": 250,
+              "ioValue": 500,
               "currentEquation": "TableLength/2"
             },
             {
@@ -1577,12 +1577,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 150,
+              "ioValue": 1000,
               "currentEquation": "TableWidth/2"
             },
             {
               "name": "yDist",
-              "ioValue": -250,
+              "ioValue": -500,
               "currentEquation": "-TableLength/2"
             },
             {
@@ -1603,12 +1603,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -150,
+              "ioValue": -1000,
               "currentEquation": "-TableWidth/2"
             },
             {
               "name": "yDist",
-              "ioValue": -250,
+              "ioValue": -500,
               "currentEquation": "-TableLength/2"
             },
             {
@@ -1647,7 +1647,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-20-150-250-0",
+                "geometry": "move-circle-20-1000-500-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1674,7 +1674,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-20--150-250-0",
+                "geometry": "move-circle-20--1000-500-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1701,7 +1701,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-circle-20-150--250-0",
+                "geometry": "move-circle-20-1000--500-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1728,7 +1728,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-circle-20--150--250-0",
+                "geometry": "move-circle-20--1000--500-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1788,7 +1788,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 366.11846327358506,
+              "ioValue": 866.1184632735851,
               "currentEquation": "TableLength - 2 * EdgeLip - 2*sqrt(2) *WoodThick"
             }
           ]
@@ -1822,7 +1822,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 100.475,
+              "ioValue": 950.475,
               "currentEquation": "TableWidth/2 - WoodThick/2 - EdgeLip"
             },
             {
@@ -1848,7 +1848,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -100.475,
+              "ioValue": -950.475,
               "currentEquation": "-(TableWidth/2 - WoodThick/2 -EdgeLip)"
             },
             {
@@ -1870,7 +1870,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 166.11846327358506,
+              "ioValue": 1866.1184632735851,
               "currentEquation": "TableWidth  - 2 * EdgeLip - 2*sqrt(2) *WoodThick"
             },
             {
@@ -1913,7 +1913,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 200.475,
+              "ioValue": 450.475,
               "currentEquation": "TableLength/2 - WoodThick/2 - EdgeLip"
             },
             {
@@ -1939,7 +1939,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -200.475,
+              "ioValue": -450.475,
               "currentEquation": "-(TableLength/2 - WoodThick/2 - EdgeLip)"
             },
             {
@@ -2196,12 +2196,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": -110,
+          "ioValue": -960,
           "currentEquation": "-TableWidth/2 + EdgeLip"
         },
         {
           "name": "yDist",
-          "ioValue": 210,
+          "ioValue": 460,
           "currentEquation": "TableLength/2 -EdgeLip"
         },
         {
@@ -2247,12 +2247,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": 110,
+          "ioValue": 960,
           "currentEquation": "TableWidth/2 - EdgeLip"
         },
         {
           "name": "yDist",
-          "ioValue": 210,
+          "ioValue": 460,
           "currentEquation": "TableLength/2 -EdgeLip"
         },
         {
@@ -2298,12 +2298,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": -110,
+          "ioValue": -960,
           "currentEquation": "-(TableWidth/2 - EdgeLip)"
         },
         {
           "name": "yDist",
-          "ioValue": -210,
+          "ioValue": -460,
           "currentEquation": "-(TableLength/2 -EdgeLip)"
         },
         {
@@ -2349,12 +2349,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": 110,
+          "ioValue": 960,
           "currentEquation": "TableWidth/2 - EdgeLip"
         },
         {
           "name": "yDist",
-          "ioValue": -210,
+          "ioValue": -460,
           "currentEquation": "-(TableLength/2 -EdgeLip)"
         },
         {
@@ -2445,7 +2445,7 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ],
-      "readMeText": "Readme text here",
+      "readMeText": "Parametric Table.  It would need 32 wood Screws to attach the legs at the top of the corners. It would need Screws to attach the table top.  you could make pocket screws ",
       "global": true
     }
   ],

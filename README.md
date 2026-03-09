@@ -6,9 +6,9 @@
 
 
 
- Readme text here 
+ Parametric Table.  It would need 32 wood Screws to attach the legs at the top of the corners. It would need Screws to attach the table top.  you could make pocket screws  
 
-![readme](/readmeid-6569.svg?v=4bimzv)
+![readme](/readmeid-6569.svg?v=nw8phhq)
 
 
 
