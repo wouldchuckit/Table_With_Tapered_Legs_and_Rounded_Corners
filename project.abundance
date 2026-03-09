@@ -11,12 +11,12 @@
     },
     {
       "name": "TableLength",
-      "ioValue": 5000
+      "ioValue": 500,
+      "currentEquation": "500"
     },
     {
       "name": "TableWidth",
-      "ioValue": 3000,
-      "currentEquation": "3000"
+      "ioValue": 300
     },
     {
       "name": "TopHeight",
@@ -81,11 +81,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 5000
+          "ioValue": 500
         },
         {
           "name": "y length",
-          "ioValue": 3000
+          "ioValue": 300
         }
       ]
     },
@@ -1444,12 +1444,12 @@
         },
         {
           "name": "TableWidth",
-          "ioValue": 3000,
+          "ioValue": 300,
           "currentEquation": "TableWidth"
         },
         {
           "name": "TableLength",
-          "ioValue": 5000,
+          "ioValue": 500,
           "currentEquation": "TableLength"
         },
         {
@@ -1561,12 +1561,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 1500,
+              "ioValue": 150,
               "currentEquation": "TableWidth/2"
             },
             {
               "name": "yDist",
-              "ioValue": 2500,
+              "ioValue": 250,
               "currentEquation": "TableLength/2"
             },
             {
@@ -1587,12 +1587,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -1500,
+              "ioValue": -150,
               "currentEquation": "-TableWidth/2"
             },
             {
               "name": "yDist",
-              "ioValue": 2500,
+              "ioValue": 250,
               "currentEquation": "TableLength/2"
             },
             {
@@ -1613,12 +1613,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 1500,
+              "ioValue": 150,
               "currentEquation": "TableWidth/2"
             },
             {
               "name": "yDist",
-              "ioValue": -2500,
+              "ioValue": -250,
               "currentEquation": "-TableLength/2"
             },
             {
@@ -1639,12 +1639,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": -1500,
+              "ioValue": -150,
               "currentEquation": "-TableWidth/2"
             },
             {
               "name": "yDist",
-              "ioValue": -2500,
+              "ioValue": -250,
               "currentEquation": "-TableLength/2"
             },
             {
@@ -1683,7 +1683,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-20-1500-2500-0",
+                "geometry": "move-circle-20-150-250-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1710,7 +1710,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-20--1500-2500-0",
+                "geometry": "move-circle-20--150-250-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1737,7 +1737,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-circle-20-1500--2500-0",
+                "geometry": "move-circle-20-150--250-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1764,7 +1764,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-circle-20--1500--2500-0",
+                "geometry": "move-circle-20--150--250-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1824,7 +1824,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 4866.118463273585,
+              "ioValue": 366.11846327358506,
               "currentEquation": "TableLength - 2 * EdgeLip - 2*sqrt(2) *WoodThick"
             }
           ]
@@ -1858,7 +1858,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 1450.475,
+              "ioValue": 100.475,
               "currentEquation": "TableWidth/2 - WoodThick/2 - EdgeLip"
             },
             {
@@ -1884,7 +1884,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -1450.475,
+              "ioValue": -100.475,
               "currentEquation": "-(TableWidth/2 - WoodThick/2 -EdgeLip)"
             },
             {
@@ -1934,7 +1934,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 2866.118463273585,
+              "ioValue": 166.11846327358506,
               "currentEquation": "TableWidth  - 2 * EdgeLip - 2*sqrt(2) *WoodThick"
             },
             {
@@ -1977,7 +1977,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 2450.475,
+              "ioValue": 200.475,
               "currentEquation": "TableLength/2 - WoodThick/2 - EdgeLip"
             },
             {
@@ -2003,7 +2003,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -2450.475,
+              "ioValue": -200.475,
               "currentEquation": "-(TableLength/2 - WoodThick/2 - EdgeLip)"
             },
             {
@@ -2184,8 +2184,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3683926645091694,
-      "y": 0.5311778290993071,
+      "x": 0.3964401294498382,
+      "y": 0.4780600461893765,
       "uniqueID": "id-6479",
       "ioValues": [
         {
@@ -2194,12 +2194,12 @@
         },
         {
           "name": "xDist",
-          "ioValue": -1540,
-          "currentEquation": "-TableWidth/2 -EdgeLip"
+          "ioValue": -110,
+          "currentEquation": "-TableWidth/2 + EdgeLip"
         },
         {
           "name": "yDist",
-          "ioValue": 2460,
+          "ioValue": 210,
           "currentEquation": "TableLength/2 -EdgeLip"
         },
         {
@@ -2211,8 +2211,8 @@
     },
     {
       "atomType": "Rotate",
-      "x": 0.37378640776699035,
-      "y": 0.6928406466512702,
+      "x": 0.3532901833872708,
+      "y": 0.6351039260969977,
       "uniqueID": "id-6491",
       "ioValues": [
         {
@@ -2236,8 +2236,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3732470334412082,
-      "y": 0.859122401847575,
+      "x": 0.395361380798274,
+      "y": 0.6235565819861432,
       "uniqueID": "id-6497",
       "ioValues": [
         {
@@ -2246,13 +2246,117 @@
         },
         {
           "name": "xDist",
-          "ioValue": 1500,
-          "currentEquation": "TableWidth/2"
+          "ioValue": 110,
+          "currentEquation": "TableWidth/2 - EdgeLip"
         },
         {
           "name": "yDist",
-          "ioValue": 2500,
-          "currentEquation": "TableLength/2"
+          "ioValue": 210,
+          "currentEquation": "TableLength/2 -EdgeLip"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 880.95,
+          "currentEquation": "TopHeight - WoodThick"
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.35382955771305286,
+      "y": 0.7621247113163973,
+      "uniqueID": "id-6503",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.395361380798274,
+      "y": 0.7575057736720554,
+      "uniqueID": "id-6504",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -110,
+          "currentEquation": "-(TableWidth/2 - EdgeLip)"
+        },
+        {
+          "name": "yDist",
+          "ioValue": -210,
+          "currentEquation": "-(TableLength/2 -EdgeLip)"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 880.95,
+          "currentEquation": "TopHeight - WoodThick"
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.3532901833872708,
+      "y": 0.8822170900692841,
+      "uniqueID": "id-6515",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 180,
+          "currentEquation": "180"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3969795037756203,
+      "y": 0.8960739030023095,
+      "uniqueID": "id-6516",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 110,
+          "currentEquation": "TableWidth/2 - EdgeLip"
+        },
+        {
+          "name": "yDist",
+          "ioValue": -210,
+          "currentEquation": "-(TableLength/2 -EdgeLip)"
         },
         {
           "name": "zDist",
@@ -2304,6 +2408,16 @@
       "ap2ID": "id-6491"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-5258",
+      "ap2ID": "id-6503"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-5258",
+      "ap2ID": "id-6515"
+    },
+    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-6012",
       "ap2ID": "id-6169"
@@ -2312,6 +2426,16 @@
       "ap2Name": "geometry",
       "ap1ID": "id-6491",
       "ap2ID": "id-6497"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6503",
+      "ap2ID": "id-6504"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6515",
+      "ap2ID": "id-6516"
     }
   ],
   "unitsKey": "MM",
