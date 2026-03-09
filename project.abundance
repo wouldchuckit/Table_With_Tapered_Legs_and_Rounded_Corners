@@ -49,6 +49,10 @@
     {
       "name": "NutThick",
       "ioValue": 5
+    },
+    {
+      "name": "ScrewHead",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -1403,7 +1407,11 @@
           "ioValue": 10
         },
         {
-          "name": "Input",
+          "name": "EdgeLip",
+          "ioValue": 10
+        },
+        {
+          "name": "CornerRound",
           "ioValue": 10
         }
       ],
@@ -1460,11 +1468,26 @@
           "atomType": "Input",
           "x": 0.01815,
           "y": 0.44,
-          "uniqueID": "id-6031"
+          "uniqueID": "id-6031",
+          "name": "EdgeLip"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.506,
+          "uniqueID": "id-6037",
+          "name": "CornerRound"
         }
       ],
       "allConnectors": [],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.01815,
+      "y": 0.8360000000000003,
+      "uniqueID": "id-6034",
+      "name": "ScrewHead"
     }
   ],
   "allConnectors": [
