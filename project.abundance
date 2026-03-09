@@ -1503,8 +1503,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.4110032362459547,
-      "y": 0.12471131639722863,
+      "x": 0.307982740021575,
+      "y": 0.14087759815242495,
       "uniqueID": "id-6012",
       "name": "TableTop",
       "ioValues": [
@@ -1970,34 +1970,6 @@
           ]
         },
         {
-          "atomType": "Assembly",
-          "x": 0.5102481121898598,
-          "y": 0.19861431870669746,
-          "uniqueID": "id-6129",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 4",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 5",
-              "ioValue": null
-            }
-          ]
-        },
-        {
           "atomType": "Rectangle",
           "x": 0.2222222222222222,
           "y": 0.6120092378752886,
@@ -2132,6 +2104,62 @@
               "ioValue": 0
             }
           ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.494066882416397,
+          "y": 0.5034642032332564,
+          "uniqueID": "id-6554",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.5690399137001079,
+          "y": 0.4942263279445727,
+          "uniqueID": "id-6561",
+          "name": "Edge",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "Edge"
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.5021574973031283,
+          "y": 0.19168591224018475,
+          "uniqueID": "id-6564",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -2183,7 +2211,7 @@
         {
           "ap2Name": "Shape 1",
           "ap1ID": "id-6101",
-          "ap2ID": "id-6129"
+          "ap2ID": "id-6564"
         },
         {
           "ap2Name": "geometry",
@@ -2201,19 +2229,14 @@
           "ap2ID": "id-6123"
         },
         {
-          "ap2Name": "Shape 2",
+          "ap2Name": "Shape 1",
           "ap1ID": "id-6117",
-          "ap2ID": "id-6129"
+          "ap2ID": "id-6554"
         },
         {
-          "ap2Name": "Shape 3",
+          "ap2Name": "Shape 2",
           "ap1ID": "id-6123",
-          "ap2ID": "id-6129"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-6129",
-          "ap2ID": "id-6157"
+          "ap2ID": "id-6554"
         },
         {
           "ap2Name": "geometry",
@@ -2231,14 +2254,14 @@
           "ap2ID": "id-6149"
         },
         {
-          "ap2Name": "Shape 4",
+          "ap2Name": "Shape 3",
           "ap1ID": "id-6143",
-          "ap2ID": "id-6129"
+          "ap2ID": "id-6554"
         },
         {
-          "ap2Name": "Shape 5",
+          "ap2Name": "Shape 4",
           "ap1ID": "id-6149",
-          "ap2ID": "id-6129"
+          "ap2ID": "id-6554"
         },
         {
           "ap2Name": "geometry",
@@ -2249,6 +2272,21 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-6163",
           "ap2ID": "id-6014"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6554",
+          "ap2ID": "id-6561"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-6561",
+          "ap2ID": "id-6564"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6564",
+          "ap2ID": "id-6157"
         }
       ],
       "fileTypeVersion": 1
@@ -2275,8 +2313,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 880.95,
-          "currentEquation": "TopHeight - WoodThick"
+          "ioValue": 0
         }
       ]
     },
@@ -2327,8 +2364,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 880.95,
-          "currentEquation": "TopHeight - WoodThick"
+          "ioValue": 0
         }
       ]
     },
@@ -2379,8 +2415,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 880.95,
-          "currentEquation": "TopHeight - WoodThick"
+          "ioValue": 0
         }
       ]
     },
@@ -2431,8 +2466,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 880.95,
-          "currentEquation": "TopHeight - WoodThick"
+          "ioValue": 0
         }
       ]
     },
@@ -2492,8 +2526,8 @@
     },
     {
       "atomType": "Tag",
-      "x": 0.4967637540453074,
-      "y": 0.13625866050808313,
+      "x": 0.37594390507011866,
+      "y": 0.14549653579676675,
       "uniqueID": "id-6549",
       "name": "Top",
       "ioValues": [
@@ -2609,12 +2643,12 @@
       "ap2ID": "id-6546"
     },
     {
-      "ap2Name": "Shape 1",
+      "ap2Name": "Shape 3",
       "ap1ID": "id-6543",
       "ap2ID": "id-6169"
     },
     {
-      "ap2Name": "Shape 3",
+      "ap2Name": "Shape 1",
       "ap1ID": "id-6546",
       "ap2ID": "id-6169"
     },
