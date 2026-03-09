@@ -1388,31 +1388,38 @@
       "ioValues": [
         {
           "name": "WoodThick",
-          "ioValue": 10
+          "ioValue": 19.05,
+          "currentEquation": "WoodThick"
         },
         {
           "name": "TableWidth",
-          "ioValue": 10
+          "ioValue": 5000,
+          "currentEquation": "TableWidth"
         },
         {
           "name": "TableLength",
-          "ioValue": 10
+          "ioValue": 10000,
+          "currentEquation": "TableLength"
         },
         {
           "name": "EdgeHeight",
-          "ioValue": 10
+          "ioValue": 80,
+          "currentEquation": "EdgeHeight"
         },
         {
           "name": "ScrewHead",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "ScrewHead"
         },
         {
           "name": "EdgeLip",
-          "ioValue": 10
+          "ioValue": 40,
+          "currentEquation": "EdgeLip"
         },
         {
           "name": "CornerRound",
-          "ioValue": 10
+          "ioValue": 20,
+          "currentEquation": "CornerRound"
         }
       ],
       "topLevel": false,
@@ -1477,6 +1484,19 @@
           "y": 0.506,
           "uniqueID": "id-6037",
           "name": "CornerRound"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.14670981661272922,
+          "y": 0.21709006928406466,
+          "uniqueID": "id-6040",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 40,
+              "currentEquation": "CornerRound * 2"
+            }
+          ]
         }
       ],
       "allConnectors": [],
