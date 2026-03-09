@@ -398,8 +398,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 20,
-              "currentEquation": "LegWidth/4"
+              "ioValue": 60,
+              "currentEquation": "LegWidth/4 +LegWidth/2"
             },
             {
               "name": "zDist",
@@ -456,7 +456,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-rectangle-80-40-840.95-20-0",
+                "geometry": "move-rectangle-80-40-840.95-60-0",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
