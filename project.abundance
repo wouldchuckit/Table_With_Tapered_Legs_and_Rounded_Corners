@@ -1209,6 +1209,54 @@
           "y": 0.5720000000000001,
           "uniqueID": "id-6043",
           "name": "ScrewHead"
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.4298813376483279,
+          "y": 0.11778290993071594,
+          "uniqueID": "id-6527",
+          "name": "Leg",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "Leg"
+          ]
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.4271844660194175,
+          "y": 0.3002309468822171,
+          "uniqueID": "id-6530",
+          "name": "Leg",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "Leg"
+          ]
+        },
+        {
+          "atomType": "Tag",
+          "x": 0.6299892125134844,
+          "y": 0.45727482678983833,
+          "uniqueID": "id-6533",
+          "name": "Brace",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "tags": [
+            "Brace"
+          ]
         }
       ],
       "allConnectors": [
@@ -1243,14 +1291,14 @@
           "ap2ID": "id-5331"
         },
         {
-          "ap2Name": "Shape 1",
+          "ap2Name": "geometry",
           "ap1ID": "id-5327",
-          "ap2ID": "id-5335"
+          "ap2ID": "id-6527"
         },
         {
-          "ap2Name": "Shape 2",
+          "ap2Name": "geometry",
           "ap1ID": "id-5331",
-          "ap2ID": "id-5335"
+          "ap2ID": "id-6530"
         },
         {
           "ap2Name": "geometry1",
@@ -1283,9 +1331,9 @@
           "ap2ID": "id-5374"
         },
         {
-          "ap2Name": "Shape 3",
+          "ap2Name": "geometry",
           "ap1ID": "id-5374",
-          "ap2ID": "id-5335"
+          "ap2ID": "id-6533"
         },
         {
           "ap2Name": "geometry",
@@ -1426,6 +1474,21 @@
           "ap2Name": "SH",
           "ap1ID": "id-6043",
           "ap2ID": "id-5494"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-6527",
+          "ap2ID": "id-5335"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-6530",
+          "ap2ID": "id-5335"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-6533",
+          "ap2ID": "id-5335"
         }
       ],
       "fileTypeVersion": 1
