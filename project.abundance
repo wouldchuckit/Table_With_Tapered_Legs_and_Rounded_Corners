@@ -20,7 +20,8 @@
     },
     {
       "name": "TopHeight",
-      "ioValue": 3000
+      "ioValue": 900,
+      "currentEquation": "900"
     },
     {
       "name": "EdgeLip",
@@ -242,7 +243,7 @@
         },
         {
           "name": "TopHeight",
-          "ioValue": 3000,
+          "ioValue": 900,
           "currentEquation": "TopHeight"
         },
         {
@@ -392,7 +393,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 2940.95,
+              "ioValue": 840.95,
               "currentEquation": "TopHeight - EdgeHeight/2 -WoodThick"
             },
             {
@@ -455,7 +456,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-rectangle-80-40-2940.95-20-0",
+                "geometry": "move-rectangle-80-40-840.95-20-0",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
@@ -1388,8 +1389,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2680690399137001,
-      "y": 0.45727482678983833,
+      "x": 0.4110032362459547,
+      "y": 0.12471131639722863,
       "uniqueID": "id-6012",
       "name": "TableTop",
       "ioValues": [
@@ -2147,6 +2148,43 @@
       "y": 0.8360000000000003,
       "uniqueID": "id-6034",
       "name": "ScrewHead"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.6984897518878102,
+      "y": 0.16397228637413394,
+      "uniqueID": "id-6169",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.8015102481121898,
+      "y": 0.23787528868360275,
+      "uniqueID": "id-6173",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 880.95,
+          "currentEquation": "TopHeight - WoodThick"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -2171,8 +2209,18 @@
       "ap2ID": "id-5195"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-6012",
+      "ap2ID": "id-6169"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6169",
+      "ap2ID": "id-6173"
+    },
+    {
       "ap2Name": "number or geometry",
-      "ap1ID": "id-5217",
+      "ap1ID": "id-6173",
       "ap2ID": "id-5193"
     }
   ],
