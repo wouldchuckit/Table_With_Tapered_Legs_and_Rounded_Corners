@@ -78,77 +78,77 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.22400000000000003,
+      "y": 0.20323325635103925,
       "uniqueID": "id-5202",
       "name": "TableLength"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.30800000000000005,
+      "y": 0.2678983833718245,
       "uniqueID": "id-5205",
       "name": "TableWidth"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.39200000000000007,
+      "y": 0.3325635103926097,
       "uniqueID": "id-5214",
       "name": "TopHeight"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.4760000000000001,
+      "y": 0.4018475750577367,
       "uniqueID": "id-5221",
       "name": "EdgeLip"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.56,
+      "y": 0.4688221709006928,
       "uniqueID": "id-5237",
       "name": "LegWidth"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.644,
+      "y": 0.5381062355658198,
       "uniqueID": "id-5274",
       "name": "EdgeHeight"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.728,
+      "y": 0.605080831408776,
       "uniqueID": "id-6000",
       "name": "CornerRound"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.8119999999999999,
+      "y": 0.6836027713625865,
       "uniqueID": "id-6003",
       "name": "BoltDiameter"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.8959999999999999,
+      "y": 0.7575057736720554,
       "uniqueID": "id-6006",
       "name": "NutWidth"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.95,
+      "y": 0.9053117782909931,
       "uniqueID": "id-6009",
       "name": "NutThick"
     },
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.95,
+      "y": 0.8290993071593533,
       "uniqueID": "id-6034",
       "name": "ScrewHead"
     },
@@ -1704,49 +1704,49 @@
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.14,
           "uniqueID": "id-6016",
           "name": "WoodThick"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.22400000000000003,
           "uniqueID": "id-6019",
           "name": "TableWidth"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.30800000000000005,
           "uniqueID": "id-6022",
           "name": "TableLength"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.39200000000000007,
           "uniqueID": "id-6025",
           "name": "EdgeHeight"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.4760000000000001,
           "uniqueID": "id-6028",
           "name": "ScrewHead"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.56,
           "uniqueID": "id-6031",
           "name": "EdgeLip"
         },
         {
           "atomType": "Input",
-          "x": 0.0231,
+          "x": 0.01815,
           "y": 0.644,
           "uniqueID": "id-6037",
           "name": "CornerRound"
