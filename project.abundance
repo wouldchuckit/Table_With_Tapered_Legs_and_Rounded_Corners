@@ -52,7 +52,8 @@
     },
     {
       "name": "ScrewHead",
-      "ioValue": 10
+      "ioValue": 5,
+      "currentEquation": "5"
     }
   ],
   "topLevel": true,
@@ -266,6 +267,11 @@
           "name": "NutThick",
           "ioValue": 5,
           "currentEquation": "NutThick"
+        },
+        {
+          "name": "ScrewHead",
+          "ioValue": 5,
+          "currentEquation": "ScrewHead"
         }
       ],
       "topLevel": false,
@@ -666,14 +672,6 @@
           ]
         },
         {
-          "atomType": "Constant",
-          "x": 0.022114347357065803,
-          "y": 0.7505773672055427,
-          "uniqueID": "id-5380",
-          "name": "ScrewHead",
-          "value": 10
-        },
-        {
           "atomType": "Rectangle",
           "x": 0.12837108953613807,
           "y": 0.8752886836027713,
@@ -681,11 +679,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 14.142135623730951
+              "ioValue": 7.0710678118654755
             },
             {
               "name": "y length",
-              "ioValue": 14.142135623730951
+              "ioValue": 7.0710678118654755
             }
           ]
         },
@@ -701,7 +699,7 @@
             },
             {
               "name": "height",
-              "ioValue": 14.142135623730951
+              "ioValue": 7.0710678118654755
             }
           ]
         },
@@ -714,7 +712,7 @@
           "ioValues": [
             {
               "name": "SH",
-              "ioValue": 10
+              "ioValue": 5
             }
           ],
           "currentEquation": "SH * sqrt(2)"
@@ -1130,6 +1128,13 @@
               "ioValue": 45
             }
           ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.5720000000000001,
+          "uniqueID": "id-6043",
+          "name": "ScrewHead"
         }
       ],
       "allConnectors": [
@@ -1207,11 +1212,6 @@
           "ap2Name": "Shape 3",
           "ap1ID": "id-5374",
           "ap2ID": "id-5335"
-        },
-        {
-          "ap2Name": "SH",
-          "ap1ID": "id-5380",
-          "ap2ID": "id-5494"
         },
         {
           "ap2Name": "geometry",
@@ -1347,6 +1347,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-5804",
           "ap2ID": "id-5260"
+        },
+        {
+          "ap2Name": "SH",
+          "ap1ID": "id-6043",
+          "ap2ID": "id-5494"
         }
       ],
       "fileTypeVersion": 1
@@ -1408,7 +1413,7 @@
         },
         {
           "name": "ScrewHead",
-          "ioValue": 10,
+          "ioValue": 5,
           "currentEquation": "ScrewHead"
         },
         {
