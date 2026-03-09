@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 19.05,
-      "currentEquation": "19.05"
+      "ioValue": 19.05
     },
     {
       "name": "TableLength",
@@ -20,13 +19,11 @@
     },
     {
       "name": "TopHeight",
-      "ioValue": 3000,
-      "currentEquation": "3000"
+      "ioValue": 3000
     },
     {
       "name": "EdgeLip",
-      "ioValue": 40,
-      "currentEquation": "40"
+      "ioValue": 40
     },
     {
       "name": "LegWidth",
@@ -34,8 +31,7 @@
     },
     {
       "name": "EdgeHeight",
-      "ioValue": 80,
-      "currentEquation": "80"
+      "ioValue": 80
     }
   ],
   "topLevel": true,
@@ -287,19 +283,7 @@
           "atomType": "Rectangle",
           "x": 0.10517799352750809,
           "y": 0.18013856812933027,
-          "uniqueID": "id-5280",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 80,
-              "currentEquation": "EdgeHeight"
-            },
-            {
-              "name": "y length",
-              "ioValue": 80,
-              "currentEquation": "LegWidth"
-            }
-          ]
+          "uniqueID": "id-5280"
         },
         {
           "atomType": "Input",
@@ -319,16 +303,6 @@
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "xDist",
-              "ioValue": 40,
-              "currentEquation": "EdgeHeight/2"
-            },
-            {
-              "name": "yDist",
-              "ioValue": 40,
-              "currentEquation": "LegWidth/2"
-            },
-            {
               "name": "zDist",
               "ioValue": 0
             }
@@ -338,19 +312,7 @@
           "atomType": "Rectangle",
           "x": 0.10302049622437973,
           "y": 0.3187066974595843,
-          "uniqueID": "id-5312",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 80,
-              "currentEquation": "EdgeHeight"
-            },
-            {
-              "name": "y length",
-              "ioValue": 40,
-              "currentEquation": "LegWidth/2"
-            }
-          ]
+          "uniqueID": "id-5312"
         },
         {
           "atomType": "Move",
@@ -361,16 +323,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 2940.95,
-              "currentEquation": "TopHeight - EdgeHeight/2 -WoodThick"
-            },
-            {
-              "name": "yDist",
-              "ioValue": 20,
-              "currentEquation": "LegWidth/4"
             },
             {
               "name": "zDist",
@@ -399,57 +351,11 @@
             },
             {
               "name": "Shape 1",
-              "ioValue": {
-                "geometry": "move-rectangle-80-80-40-40-0",
-                "dimension": "2D",
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
+              "ioValue": null
             },
             {
               "name": "Shape 2",
-              "ioValue": {
-                "geometry": "move-rectangle-80-40-2940.95-20-0",
-                "dimension": "2D",
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": []
-              }
+              "ioValue": null
             },
             {
               "name": "Shape 3",
@@ -466,11 +372,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 19.05,
-              "currentEquation": "WoodThick"
             }
           ]
         },
@@ -483,11 +384,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": -19.05,
-              "currentEquation": "-WoodThick"
             }
           ]
         },
@@ -536,32 +432,13 @@
           "atomType": "Rectangle",
           "x": 0.10679611650485438,
           "y": 0.47344110854503463,
-          "uniqueID": "id-5349",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 80,
-              "currentEquation": "EdgeHeight"
-            },
-            {
-              "name": "y length",
-              "ioValue": 182.31846327358505,
-              "currentEquation": "4*WoodThick + 2*LegWidth - 2*sqrt(2)*WoodThick"
-            }
-          ]
+          "uniqueID": "id-5349"
         },
         {
           "atomType": "Circle",
           "x": 0.10140237324703344,
           "y": 0.6374133949191686,
-          "uniqueID": "id-5357",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 5,
-              "currentEquation": "BoltDiameter"
-            }
-          ]
+          "uniqueID": "id-5357"
         },
         {
           "atomType": "Difference",
@@ -588,11 +465,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 19.05,
-              "currentEquation": "WoodThick"
             }
           ]
         },
@@ -605,11 +477,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 40,
-              "currentEquation": "EdgeHeight/2"
             },
             {
               "name": "yDist",
@@ -708,21 +575,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": -20.95,
-              "currentEquation": "- (EdgeHeight / 2  - WoodThick)"
-            },
-            {
-              "name": "yDist",
-              "ioValue": 53.05923163679253,
-              "currentEquation": "(LegWidth - sqrt(2) * WoodThick)"
-            },
-            {
-              "name": "zDist",
-              "ioValue": 19.05,
-              "currentEquation": "WoodThick"
             }
           ]
         },
@@ -735,21 +587,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 20.95,
-              "currentEquation": "EdgeHeight / 2  - WoodThick"
-            },
-            {
-              "name": "yDist",
-              "ioValue": 53.05923163679253,
-              "currentEquation": "LegWidth - sqrt(2) * WoodThick"
-            },
-            {
-              "name": "zDist",
-              "ioValue": 19.05,
-              "currentEquation": "WoodThick"
             }
           ]
         },
@@ -801,8 +638,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 180,
-              "currentEquation": "180"
+              "ioValue": 180
             }
           ]
         },
@@ -867,19 +703,7 @@
           "atomType": "Rectangle",
           "x": 0.5544768069039914,
           "y": 0.9076212471131639,
-          "uniqueID": "id-5546",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 5,
-              "currentEquation": "BoltDiameter"
-            },
-            {
-              "name": "y length",
-              "ioValue": 5,
-              "currentEquation": "BoltDiameter"
-            }
-          ]
+          "uniqueID": "id-5546"
         },
         {
           "atomType": "Extrude",
@@ -890,11 +714,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 60.95,
-              "currentEquation": "LegWidth - WoodThick"
             }
           ]
         },
@@ -910,8 +729,7 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": -90,
-              "currentEquation": "-90"
+              "ioValue": -90
             },
             {
               "name": "y-axis degrees",
@@ -934,11 +752,6 @@
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "xDist",
-              "ioValue": 40,
-              "currentEquation": "EdgeHeight/2"
-            },
-            {
               "name": "yDist",
               "ioValue": 0
             },
@@ -952,19 +765,7 @@
           "atomType": "Rectangle",
           "x": 0.5571736785329018,
           "y": 0.745958429561201,
-          "uniqueID": "id-5566",
-          "ioValues": [
-            {
-              "name": "x length",
-              "ioValue": 10,
-              "currentEquation": "NutWidth"
-            },
-            {
-              "name": "y length",
-              "ioValue": 5,
-              "currentEquation": "NutThick"
-            }
-          ]
+          "uniqueID": "id-5566"
         },
         {
           "atomType": "Extrude",
@@ -975,11 +776,6 @@
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "height",
-              "ioValue": 45,
-              "currentEquation": "(EdgeHeight + NutWidth) /2"
             }
           ]
         },
@@ -999,8 +795,7 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 90,
-              "currentEquation": "90"
+              "ioValue": 90
             },
             {
               "name": "z-axis degrees",
@@ -1021,11 +816,6 @@
             {
               "name": "xDist",
               "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 40,
-              "currentEquation": "LegWidth/2"
             },
             {
               "name": "zDist",
@@ -1081,8 +871,7 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 90,
-              "currentEquation": "90"
+              "ioValue": 90
             },
             {
               "name": "z-axis degrees",
