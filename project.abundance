@@ -655,15 +655,15 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 2438
+          "ioValue": 5000
         },
         {
           "name": "Sheet Height",
-          "ioValue": 1219
+          "ioValue": 2000
         },
         {
           "name": "Part Padding",
-          "ioValue": 10
+          "ioValue": 20
         },
         {
           "name": "Orientations",
@@ -3531,6 +3531,36 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Export",
+      "x": 0.8635382955771306,
+      "y": 0.5565819861431871,
+      "uniqueID": "id-9893",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Table_With_Tapered_Legs_and_Rounded_Corners",
+          "currentEquation": "Table_With_Tapered_Legs_and_Rounded_Corners"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Table_With_Tapered_Legs_and_Rounded_Corners"
     }
   ],
   "allConnectors": [
@@ -3703,6 +3733,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-6922",
       "ap2ID": "id-8584"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-8556",
+      "ap2ID": "id-9893"
     },
     {
       "ap2Name": "geometry",
