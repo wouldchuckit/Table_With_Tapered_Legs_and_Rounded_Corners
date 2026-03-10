@@ -1779,7 +1779,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 10
+              "ioValue": 35
             }
           ]
         },
@@ -1909,7 +1909,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-5-0-0-0",
+                "geometry": "move-circle-17.5-0-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1936,7 +1936,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-5-0-0-0",
+                "geometry": "move-circle-17.5-0-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1963,7 +1963,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-circle-5-0-0-0",
+                "geometry": "move-circle-17.5-0-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1990,7 +1990,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-circle-5-0-0-0",
+                "geometry": "move-circle-17.5-0-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2299,9 +2299,60 @@
               "ioValue": null
             }
           ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.04854368932038835,
+          "y": 0.7829099307159354,
+          "uniqueID": "id-7294",
+          "name": ".5 * TW - CR",
+          "ioValues": [
+            {
+              "name": "TW",
+              "ioValue": 1
+            },
+            {
+              "name": "CR",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": ".5 * TW - CR"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.04422869471413161,
+          "y": 0.6535796766743649,
+          "uniqueID": "id-7300",
+          "name": ".5 * CR",
+          "ioValues": [
+            {
+              "name": "CR",
+              "ioValue": 70
+            }
+          ],
+          "currentEquation": ".5 * CR"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.04422869471413161,
+          "y": 0.9145496535796767,
+          "uniqueID": "id-7305",
+          "name": "-x",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "-x"
         }
       ],
       "allConnectors": [
+        {
+          "ap2Name": "CR",
+          "ap1ID": "id-6037",
+          "ap2ID": "id-7300"
+        },
         {
           "ap2Name": "geometry",
           "ap1ID": "id-6040",
@@ -2426,6 +2477,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-6564",
           "ap2ID": "id-6157"
+        },
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-7300",
+          "ap2ID": "id-6040"
         }
       ],
       "fileTypeVersion": 1
