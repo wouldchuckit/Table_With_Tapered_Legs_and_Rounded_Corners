@@ -36,8 +36,8 @@
     },
     {
       "name": "CornerRound",
-      "ioValue": 70,
-      "currentEquation": "70"
+      "ioValue": 60,
+      "currentEquation": "60"
     },
     {
       "name": "BoltDiameter",
@@ -1891,7 +1891,7 @@
         },
         {
           "name": "CornerRound",
-          "ioValue": 70,
+          "ioValue": 60,
           "currentEquation": "CornerRound"
         }
       ],
@@ -1966,7 +1966,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 140
+              "ioValue": 120
             }
           ]
         },
@@ -1982,11 +1982,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 430
+              "ioValue": 440
             },
             {
               "name": "yDist",
-              "ioValue": 330
+              "ioValue": 340
             },
             {
               "name": "zDist",
@@ -2006,11 +2006,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 430
+              "ioValue": 440
             },
             {
               "name": "yDist",
-              "ioValue": -330
+              "ioValue": -340
             },
             {
               "name": "zDist",
@@ -2030,11 +2030,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": -430
+              "ioValue": -440
             },
             {
               "name": "yDist",
-              "ioValue": 330
+              "ioValue": 340
             },
             {
               "name": "zDist",
@@ -2054,11 +2054,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": -430
+              "ioValue": -440
             },
             {
               "name": "yDist",
-              "ioValue": -330
+              "ioValue": -340
             },
             {
               "name": "zDist",
@@ -2096,7 +2096,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-70-430-330-0",
+                "geometry": "move-circle-60-440-340-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2123,7 +2123,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-70-430--330-0",
+                "geometry": "move-circle-60-440--340-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2150,7 +2150,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-circle-70--430-330-0",
+                "geometry": "move-circle-60--440-340-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2177,7 +2177,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-circle-70--430--330-0",
+                "geometry": "move-circle-60--440--340-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2500,7 +2500,7 @@
             },
             {
               "name": "CR",
-              "ioValue": 70
+              "ioValue": 60
             }
           ],
           "currentEquation": ".5 * TW -  CR"
@@ -2514,7 +2514,7 @@
           "ioValues": [
             {
               "name": "CR",
-              "ioValue": 70
+              "ioValue": 60
             }
           ],
           "currentEquation": "2* CR"
@@ -2528,7 +2528,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 430
+              "ioValue": 440
             }
           ],
           "currentEquation": "-x"
@@ -2546,7 +2546,7 @@
             },
             {
               "name": "CR",
-              "ioValue": 70
+              "ioValue": 60
             }
           ],
           "currentEquation": ".5 * TL - CR"
@@ -2560,7 +2560,7 @@
           "ioValues": [
             {
               "name": "y",
-              "ioValue": 330
+              "ioValue": 340
             }
           ],
           "currentEquation": "-y"

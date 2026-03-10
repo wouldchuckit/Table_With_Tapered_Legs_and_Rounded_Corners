@@ -8,7 +8,11 @@
 
  Parametric Table.  It would need 32 wood Screws to attach the legs at the top of the corners. There are four pockets ready for screws at each corner inside and then you would need to screw the edge boards to the leg with two more screws on each side. It would also need screws to attach the table top.  you could make pocket screw holes or add about a 1 inch by 1 inch piece along the inside edge of the top to screw the table and the edge to.  
 You will need 4 bolts, washers and 4 nuts. Enter the size of these into the parameters. The nut should be hexagonal and measured across 2 opposite parallel faces. The nut will drop into the hole on top of the leg and the bolt will slide through the brace and then into it. 
-You will probably need to use a compound miter saw to trim the corners of the edges and braces. 
+You will probably need to use a compound miter saw to trim the corners of the edges and braces.  
+
+![readme](/readmeid-6569.svg?v=nuz7ama)
+
+
 
 These are extracted and then added separately to the assembly to make them chop off the right parts when they assemble.  
 
