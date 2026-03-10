@@ -460,8 +460,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.7065803667745416,
-      "y": 0.4226327944572748,
+      "x": 0.7125134843581445,
+      "y": 0.3672055427251732,
       "uniqueID": "id-6922",
       "name": "Cut Layout",
       "ioValues": [
@@ -644,8 +644,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.830636461704423,
-      "y": 0.33718244803695147,
+      "x": 0.8101402373247033,
+      "y": 0.32101616628175517,
       "uniqueID": "id-8556",
       "name": "Cut Layout",
       "ioValues": [
@@ -813,8 +813,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.8284789644012945,
-      "y": 0.48267898383371827,
+      "x": 0.8112189859762675,
+      "y": 0.47344110854503463,
       "uniqueID": "id-8563",
       "name": "Cut Layout",
       "ioValues": [
@@ -982,8 +982,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.8586839266450917,
-      "y": 0.6096997690531177,
+      "x": 0.8187702265372168,
+      "y": 0.6258660508083141,
       "uniqueID": "id-8570",
       "name": "Cut Layout",
       "ioValues": [
@@ -1151,8 +1151,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.7330097087378641,
-      "y": 0.6443418013856812,
+      "x": 0.7179072276159654,
+      "y": 0.5127020785219399,
       "uniqueID": "id-8584",
       "name": "Cut Layout",
       "ioValues": [
@@ -3869,6 +3869,36 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.819848975188781,
+      "y": 0.7875288683602771,
+      "uniqueID": "id-9017",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": []
     }
   ],
   "allConnectors": [
@@ -4051,6 +4081,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-8563",
       "ap2ID": "id-8570"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-8570",
+      "ap2ID": "id-9017"
     },
     {
       "ap2Name": "geometry",
