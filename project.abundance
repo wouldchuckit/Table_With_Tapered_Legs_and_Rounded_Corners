@@ -2281,6 +2281,42 @@
             }
           ],
           "currentEquation": "-y"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.2233009708737864,
+          "y": 0.489607390300231,
+          "uniqueID": "id-7684",
+          "name": "x + y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 1
+            },
+            {
+              "name": "y",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "x + y"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.21952535059331177,
+          "y": 0.8498845265588915,
+          "uniqueID": "id-7688",
+          "name": "x + y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 1
+            },
+            {
+              "name": "y",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "x + y"
         }
       ],
       "allConnectors": [
