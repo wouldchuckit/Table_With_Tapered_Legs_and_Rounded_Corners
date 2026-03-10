@@ -10,13 +10,13 @@
 You will need 4 bolts, washers and 4 nuts. Enter the size of these into the parameters. The nut should be hexagonal and measured across 2 opposite parallel faces. The nut will drop into the hole on top of the leg and the bolt will slide through the brace and then into it. 
 You will probably need to use a compound miter saw to trim the corners of the edges and braces.  
 
-![readme](/readmeid-6569.svg?v=eqlqg0)
+![readme](/readmeid-6569.svg?v=nmca81b)
 
 
 
 These are extracted and then added separately to the assembly to make them chop off the right parts when they assemble.  
 
-![readme](/readmeid-6929.svg?v=e0440u)
+![readme](/readmeid-6929.svg?v=nh2qtjt)
 
 
 

@@ -15,11 +15,12 @@
     },
     {
       "name": "TableWidth",
-      "ioValue": 400
+      "ioValue": 1000
     },
     {
       "name": "TopHeight",
-      "ioValue": 850
+      "ioValue": 700,
+      "currentEquation": "700"
     },
     {
       "name": "EdgeLip",
@@ -192,7 +193,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 830.95,
+          "ioValue": 680.95,
           "currentEquation": "TopHeight - WoodThick"
         }
       ]
@@ -209,7 +210,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -170,
+          "ioValue": -470,
           "currentEquation": "-TableWidth/2 + EdgeLip"
         },
         {
@@ -259,7 +260,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 170,
+          "ioValue": 470,
           "currentEquation": "TableWidth/2 - EdgeLip"
         },
         {
@@ -309,7 +310,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": -170,
+          "ioValue": -470,
           "currentEquation": "-(TableWidth/2 - EdgeLip)"
         },
         {
@@ -359,7 +360,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 170,
+          "ioValue": 470,
           "currentEquation": "TableWidth/2 - EdgeLip"
         },
         {
@@ -517,7 +518,7 @@
         },
         {
           "name": "TopHeight",
-          "ioValue": 850,
+          "ioValue": 700,
           "currentEquation": "TopHeight"
         },
         {
@@ -665,7 +666,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 805
+              "ioValue": 655
             },
             {
               "name": "zDist",
@@ -722,7 +723,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-rectangle-50-90-75-805-0",
+                "geometry": "move-rectangle-50-90-75-655-0",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
@@ -1502,7 +1503,7 @@
           "ioValues": [
             {
               "name": "TH",
-              "ioValue": 850
+              "ioValue": 700
             },
             {
               "name": "EH",
@@ -1864,7 +1865,7 @@
         },
         {
           "name": "TableWidth",
-          "ioValue": 400,
+          "ioValue": 1000,
           "currentEquation": "TableWidth"
         },
         {
@@ -1980,7 +1981,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 182.5
+              "ioValue": 482.5
             },
             {
               "name": "yDist",
@@ -2004,7 +2005,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 182.5
+              "ioValue": 482.5
             },
             {
               "name": "yDist",
@@ -2028,7 +2029,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -182.5
+              "ioValue": -482.5
             },
             {
               "name": "yDist",
@@ -2052,7 +2053,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -182.5
+              "ioValue": -482.5
             },
             {
               "name": "yDist",
@@ -2094,7 +2095,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-17.5-182.5-382.5-0",
+                "geometry": "move-circle-17.5-482.5-382.5-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2121,7 +2122,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-17.5-182.5--382.5-0",
+                "geometry": "move-circle-17.5-482.5--382.5-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2148,7 +2149,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-circle-17.5--182.5-382.5-0",
+                "geometry": "move-circle-17.5--482.5-382.5-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2175,7 +2176,7 @@
             {
               "name": "Shape 4",
               "ioValue": {
-                "geometry": "move-circle-17.5--182.5--382.5-0",
+                "geometry": "move-circle-17.5--482.5--382.5-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -2229,7 +2230,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 286.11846327358506
+              "ioValue": 886.1184632735851
             },
             {
               "name": "y length",
@@ -2345,7 +2346,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 160.475
+              "ioValue": 460.475
             },
             {
               "name": "yDist",
@@ -2369,7 +2370,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -160.475
+              "ioValue": -460.475
             },
             {
               "name": "yDist",
@@ -2494,7 +2495,7 @@
           "ioValues": [
             {
               "name": "TW",
-              "ioValue": 400
+              "ioValue": 1000
             },
             {
               "name": "CR",
@@ -2526,7 +2527,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 182.5
+              "ioValue": 482.5
             }
           ],
           "currentEquation": "-x"
@@ -2572,7 +2573,7 @@
           "ioValues": [
             {
               "name": "TW",
-              "ioValue": 400
+              "ioValue": 1000
             },
             {
               "name": "WT",
@@ -2652,7 +2653,7 @@
           "ioValues": [
             {
               "name": "TW",
-              "ioValue": 400
+              "ioValue": 1000
             },
             {
               "name": "EL",
@@ -2674,7 +2675,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 160.475
+              "ioValue": 460.475
             }
           ],
           "currentEquation": "-x"
