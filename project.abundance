@@ -611,8 +611,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.174217907227616,
-          "y": 0.16166281755196305,
+          "x": 0.19687162891046386,
+          "y": 0.18013856812933027,
           "uniqueID": "id-5306",
           "ioValues": [
             {
@@ -1429,6 +1429,38 @@
           "tags": [
             "Brace"
           ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.14617044228694714,
+          "y": 0.14780600461893764,
+          "uniqueID": "id-8120",
+          "name": ".5 *x",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": ".5 *x"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.14563106796116507,
+          "y": 0.22863741339491916,
+          "uniqueID": "id-8124",
+          "name": "x + y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 1
+            },
+            {
+              "name": "y",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "x + y"
         }
       ],
       "allConnectors": [
