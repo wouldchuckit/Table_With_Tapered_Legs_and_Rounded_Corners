@@ -1367,15 +1367,18 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0
+              "ioValue": 270,
+              "currentEquation": "270"
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 90
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 45
+              "ioValue": 135,
+              "currentEquation": "135"
             }
           ]
         },
@@ -1785,14 +1788,14 @@
           "ap2ID": "id-5798"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-5591",
-          "ap2ID": "id-5260"
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": "id-5798",
           "ap2ID": "id-5804"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-5804",
+          "ap2ID": "id-5260"
         },
         {
           "ap2Name": "SH",
