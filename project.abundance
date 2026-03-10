@@ -3199,7 +3199,7 @@
     {
       "atomType": "CutLayout",
       "x": 0.830636461704423,
-      "y": 0.3348729792147806,
+      "y": 0.33718244803695147,
       "uniqueID": "id-8556",
       "name": "Cut Layout",
       "ioValues": [
@@ -3367,8 +3367,8 @@
     },
     {
       "atomType": "CutLayout",
-      "x": 0.8619201725997842,
-      "y": 0.6789838337182448,
+      "x": 0.8284789644012945,
+      "y": 0.48267898383371827,
       "uniqueID": "id-8563",
       "name": "Cut Layout",
       "ioValues": [
@@ -3533,6 +3533,206 @@
           }
         ]
       ]
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.8586839266450917,
+      "y": 0.6096997690531177,
+      "uniqueID": "id-8570",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 6,
+            "rotate": 90,
+            "translate": {
+              "x": 50.19999999999973,
+              "y": 448.2592316367926
+            }
+          },
+          {
+            "id": 4,
+            "rotate": 180,
+            "translate": {
+              "x": 505.60000000000036,
+              "y": 505.19999999999993
+            }
+          },
+          {
+            "id": 7,
+            "rotate": 0,
+            "translate": {
+              "x": 1125.2390116505453,
+              "y": 325.17829693178965
+            }
+          },
+          {
+            "id": 8,
+            "rotate": 150,
+            "translate": {
+              "x": 1126.8810455702558,
+              "y": 528.8223843340736
+            }
+          },
+          {
+            "id": 13,
+            "rotate": 150,
+            "translate": {
+              "x": 818.3499370513459,
+              "y": 1085.0496621679722
+            }
+          },
+          {
+            "id": 10,
+            "rotate": 60,
+            "translate": {
+              "x": 1349.6619948101627,
+              "y": 941.4701969617818
+            }
+          },
+          {
+            "id": 5,
+            "rotate": 240,
+            "translate": {
+              "x": 1633.805908439224,
+              "y": 796.8191667741283
+            }
+          },
+          {
+            "id": 16,
+            "rotate": 30,
+            "translate": {
+              "x": 1392.2254869409137,
+              "y": 152.95283791783967
+            }
+          },
+          {
+            "id": 12,
+            "rotate": 120,
+            "translate": {
+              "x": 1798.3194258281333,
+              "y": 852.9035784409139
+            }
+          },
+          {
+            "id": 15,
+            "rotate": 300,
+            "translate": {
+              "x": 1940.2381449565773,
+              "y": 846.4011297533158
+            }
+          },
+          {
+            "id": 9,
+            "rotate": 300,
+            "translate": {
+              "x": 2044.3865889583074,
+              "y": 871.3257324954704
+            }
+          },
+          {
+            "id": 11,
+            "rotate": 150,
+            "translate": {
+              "x": 1578.3962283576254,
+              "y": 510.2839684736023
+            }
+          },
+          {
+            "id": 14,
+            "rotate": 180,
+            "translate": {
+              "x": 1646.124916498264,
+              "y": 144.46324450000003
+            }
+          },
+          {
+            "id": 3,
+            "rotate": 0,
+            "translate": {
+              "x": 147.83414042252446,
+              "y": 1090.4824755536533
+            }
+          },
+          {
+            "id": 2,
+            "rotate": 300,
+            "translate": {
+              "x": 339.7680555076083,
+              "y": 1083.286572547736
+            }
+          },
+          {
+            "id": 0,
+            "rotate": 180,
+            "translate": {
+              "x": 946.3824117622885,
+              "y": 1135.7134271021214
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 90,
+            "translate": {
+              "x": 1012.9508674287962,
+              "y": 839.957377646347
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.7330097087378641,
+      "y": 0.6443418013856812,
+      "uniqueID": "id-8584",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 2438
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 1219
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 10,
+          "currentEquation": "10"
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 2
+        }
+      ],
+      "placements": []
     }
   ],
   "allConnectors": [
@@ -3703,6 +3903,11 @@
     },
     {
       "ap2Name": "geometry",
+      "ap1ID": "id-6922",
+      "ap2ID": "id-8584"
+    },
+    {
+      "ap2Name": "geometry",
       "ap1ID": "id-5258",
       "ap2ID": "id-6479"
     },
@@ -3730,6 +3935,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-8556",
       "ap2ID": "id-8563"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-8563",
+      "ap2ID": "id-8570"
     }
   ],
   "unitsKey": "MM",
