@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 19.05,
-      "currentEquation": "19.05"
+      "ioValue": 19.05
     },
     {
       "name": "TableLength",
@@ -16,8 +15,7 @@
     },
     {
       "name": "TableWidth",
-      "ioValue": 300,
-      "currentEquation": "300"
+      "ioValue": 300
     },
     {
       "name": "TopHeight",
@@ -53,8 +51,7 @@
     },
     {
       "name": "ScrewHead",
-      "ioValue": 6,
-      "currentEquation": "6"
+      "ioValue": 6
     }
   ],
   "topLevel": true,
@@ -1776,7 +1773,7 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.07713052858683926,
+          "x": 0.08360302049622438,
           "y": 0.16397228637413394,
           "uniqueID": "id-6040",
           "ioValues": [
