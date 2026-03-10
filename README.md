@@ -16,7 +16,7 @@ You will probably need to use a compound miter saw to trim the corners of the ed
 
 These are extracted and then added separately to the assembly to make them chop off the right parts when they assemble.  
 
-![readme](/readmeid-6929.svg?v=nh2qtjt)
+![readme](/readmeid-6929.svg?v=noekock)
 
 
 
