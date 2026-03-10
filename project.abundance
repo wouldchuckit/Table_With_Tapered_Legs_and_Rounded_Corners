@@ -2302,21 +2302,25 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.27939590075512405,
-          "y": 0.4988452655889145,
+          "x": 0.27831715210355984,
+          "y": 0.4688221709006928,
           "uniqueID": "id-7688",
-          "name": "x + y",
+          "name": ".5 * TL - EL -.5WT",
           "ioValues": [
             {
-              "name": "x",
+              "name": "TL",
               "ioValue": 1
             },
             {
-              "name": "y",
+              "name": "EL",
+              "ioValue": 1
+            },
+            {
+              "name": "WT",
               "ioValue": 1
             }
           ],
-          "currentEquation": "x + y"
+          "currentEquation": ".5 * TL - EL -.5WT"
         },
         {
           "atomType": "Equation",
