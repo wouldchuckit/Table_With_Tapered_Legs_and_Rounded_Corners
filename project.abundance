@@ -786,8 +786,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.7119741100323624,
-          "y": 0.12009237875288684,
+          "x": 0.7130528586839266,
+          "y": 0.13394919168591224,
           "uniqueID": "id-5335",
           "ioValues": [
             {
@@ -928,8 +928,7 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 270,
-              "currentEquation": "270"
+              "ioValue": 270
             },
             {
               "name": "z-axis degrees",
@@ -1000,8 +999,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -1335,9 +1333,13 @@
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
+              "name": "xDist",
+              "ioValue": -119.05,
+              "currentEquation": "- LegWidth - WoodThick"
+            },
+            {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
