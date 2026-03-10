@@ -993,7 +993,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 92.10923163679253,
+              "currentEquation": "WoodThick + LegWidth - sqrt(2) * WoodThick"
             },
             {
               "name": "yDist",
