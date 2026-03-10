@@ -27,13 +27,11 @@
     },
     {
       "name": "LegWidth",
-      "ioValue": 100,
-      "currentEquation": "100"
+      "ioValue": 100
     },
     {
       "name": "EdgeHeight",
-      "ioValue": 90,
-      "currentEquation": "90"
+      "ioValue": 90
     },
     {
       "name": "CornerRound",
@@ -835,8 +833,8 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10,
-              "currentEquation": "10"
+              "ioValue": 222.31846327358505,
+              "currentEquation": "4*WoodThick + 2*LegWidth - 2*sqrt(2)*WoodThick"
             },
             {
               "name": "y length",
