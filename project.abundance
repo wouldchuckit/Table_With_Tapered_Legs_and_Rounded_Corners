@@ -588,17 +588,17 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.10032362459546927,
-          "y": 0.17321016166281755,
+          "x": 0.08791801510248112,
+          "y": 0.16859122401847573,
           "uniqueID": "id-5280",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 10
+              "ioValue": 90
             },
             {
               "name": "y length",
-              "ioValue": 10
+              "ioValue": 90
             }
           ]
         },
@@ -611,8 +611,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.1645091693635383,
-          "y": 0.17090069284064663,
+          "x": 0.174217907227616,
+          "y": 0.16166281755196305,
           "uniqueID": "id-5306",
           "ioValues": [
             {
@@ -695,7 +695,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-rectangle-10-10-0-0-0",
+                "geometry": "move-rectangle-90-90-0-0-0",
                 "dimension": "2D",
                 "plane": {
                   "origin": [
@@ -1433,9 +1433,19 @@
       ],
       "allConnectors": [
         {
+          "ap2Name": "x length",
+          "ap1ID": "id-5271",
+          "ap2ID": "id-5280"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-5280",
           "ap2ID": "id-5306"
+        },
+        {
+          "ap2Name": "y length",
+          "ap1ID": "id-5299",
+          "ap2ID": "id-5280"
         },
         {
           "ap2Name": "Shape 1",
