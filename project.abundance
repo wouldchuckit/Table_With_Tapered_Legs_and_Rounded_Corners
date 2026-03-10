@@ -1160,8 +1160,8 @@
             },
             {
               "name": "height",
-              "ioValue": 48.46410161513776,
-              "currentEquation": ".5 * EdgeHeight + NutWidth/(2*sqrt(3))"
+              "ioValue": 51.92820323027551,
+              "currentEquation": ".5 * EdgeHeight + 2*NutWidth/(2*sqrt(3))"
             }
           ]
         },
@@ -1201,7 +1201,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 50,
+              "currentEquation": ".5 * LegWidth"
             },
             {
               "name": "yDist",
